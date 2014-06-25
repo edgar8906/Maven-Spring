@@ -7,14 +7,14 @@ public class Usuario {
     
     private String nombre;
     private String paterno;
-    private String usua;
+    private String us;
     private String password;
     private String rol_admin;
 
     public Usuario(String nombre, String paterno, String usuario, String password, String rol_admin) {
         this.nombre = nombre;
         this.paterno = paterno;
-        this.usua = usuario;
+        this.us = usuario;
         this.password = password;
         this.rol_admin = rol_admin;
     }
@@ -44,11 +44,11 @@ public class Usuario {
     }
 
     public String getUsuario() {
-        return usua;
+        return us;
     }
 
     public void setUsuario(String usuario) {
-        this.usua = usuario;
+        this.us = usuario;
     }
 
     public String getPassword() {
