@@ -43,6 +43,6 @@ public class DAO {
     public static void close(){
         getSession().close();
         DAO.t1.set(null);
-    }
+    }                      
     
 }
